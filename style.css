@@ -1,0 +1,69 @@
+body {
+    background-color: #FFBE0B;
+    font-family:inherit;
+}
+h1 {
+    text-align: center;
+   
+
+}
+
+.pizza {
+    border: 1px solid #FB5607;
+    padding: 1cm;
+    margin: 1cm;
+    margin-bottom: 0.5cm;
+    border-radius: 0.5cm;
+    margin-top: 1cm;
+   
+    
+}
+
+.medium_pizza {
+    background-color: #FF006E;
+    flex: 1.5
+
+    
+}
+
+.Large_pizza {
+    background-color: #8338EC;
+    flex: 1.5
+
+}
+
+.small_pizza {
+    background-color: #3A86FF;
+    flex : 1.5
+}
+
+
+
+.contact_us {
+    background-color:#8F2D56 ;
+    text-align: center;
+}
+.special {
+    background-color: violet;
+    color: white;
+}
+
+
+@media (min-width: 760px) {
+    body {
+        background-color: darkturquoise;
+
+    }
+   
+    
+}
+
+@media (min-width: 960px) {
+    body {
+        background-color:#FFBE0B;
+    }
+    .pizzas {
+        display: flex;
+    }   
+    
+}
